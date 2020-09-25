@@ -1,0 +1,59 @@
+{
+  "slider-layout#benefits": {
+    "children": [
+      "image#benefit-img1",
+      "image#benefit-img2",
+      "image#benefit-img3",
+      "image#benefit-img4",
+      "image#benefit-img5",
+      "image#benefit-img6"
+    ],
+    "props": {
+      "autoplay": {
+          "timeout": 7000,
+          "stopOnHover": true
+      }
+  }
+  },
+  // === BENEFICIO 1 ===
+  "image#benefit-img1": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png"
+    }
+  },
+
+  // === BENEFICIO 2 ===
+  "image#benefit-img2": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png"
+    }
+  },
+
+  // === BENEFICIO 3 ===
+  "image#benefit-img3": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png"
+    }
+  },
+
+  // === BENEFICIO 4 ===
+  "image#benefit-img4": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png"
+    }
+  },
+
+  // === BENEFICIO 5 ===
+  "image#benefit-img5": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png"
+    }
+  },
+
+  // === BENEFICIO 6 ===
+  "image#benefit-img6": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png"
+    }
+  }
+}

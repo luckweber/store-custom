@@ -1,0 +1,21 @@
+/*================================
+  =========== SHELVES ============
+  ================================*/
+{
+  "flex-layout.row#shelf-01": {
+    "props" : {
+      "blockClass": "mainShelf"
+    },
+    "children": [
+      "list-context.product-list"
+    ]
+  },
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+/*================================
+  ============ SHELVES ===========
+  ================================*/
+
+.flexRow--mainShelf {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.flexRowContent--mainShelf {
+  margin: 0 -16px;
+}
+
+.flexRow--mainShelf :global(.vtex-slider-layout-0-x-slide) {
+  padding: 0 16px;
+}
+
+.flexRow--mainShelf :global(.vtex-button) {
+  padding: 16px 0;
+}
+
+.flexRow--mainShelf :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+  display: none;
+}
+
+.flexRowContent--mainShelf :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  transform: translateX(64px);
+}
+
+.flexRowContent--mainShelf :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  transform: translateX(-64px);
+}
+
+/*================================
+  ============ TIPBAR ============
+  ================================*/
+
+.flexRow--tipbar {
+  padding-top: 32px;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.flexRowContent--tipbar {
+  margin: 0 -16px;
+}
+
+.flexRow--tipbar .stretchChildrenWidth {
+  align-items: center;
+  padding: 16px;
+}
+
+/*================================
+  ========== INSTAFEED ===========
+  ================================*/
+
+.flexRow--instafeed {
+  padding-top: 64px;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.flexRowContent--instafeed {
+  margin: 0 -16px;
+}
+
+.flexRow--instafeed .stretchChildrenWidth {
+  align-items: center;
+  padding: 16px;
+}
+/* 
+====================
+Produto 
+====================
+*/
+
+.flexRowContent--productMain {
+  max-width: 1120px;
+  margin: auto;
+}
+.flexRow--buyButton :global(.vtex-button) {
+  background-color: #32dd7e;
+  padding: 16px 0;
+  font-size: 20px;
+  border: none;
+  box-shadow: -1px 15px 13px 0px rgba(50, 221, 126, .5);
+  transition: 400ms ease-in-out all;
+}
+
+.flexRowContent--productDescription {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.flexRowContent--pdpShelfBottom {
+  max-width: 1120px;
+  margin: auto;
+}
+
+/* 
+.flexRow--buyButton :global(.vtex-button):hover {
+  background-color: #4ce490;
+  -webkit-box-shadow: -1px 0 13px 0px rgba(50, 221, 126, .5);
+  box-shadow: -1px 0 13px 0px rgba(50, 221, 126, .5);
+}
+
+.flexRow--pdpShelfBottom {
+  background-color: #e2e7f1;
+} */

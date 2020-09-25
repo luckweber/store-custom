@@ -1,0 +1,13 @@
+.container {
+    background-color: #e2e7f1;
+    padding: 1rem;
+}
+.link {
+    color: #11181f;
+    font-size: .9rem;
+
+}
+.term {
+    font-weight: bold;
+    font-size: .9rem;
+}
