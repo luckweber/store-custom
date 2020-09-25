@@ -90,3 +90,22 @@
   font-size: 18px;
   text-transform: uppercase;
 }
+
+/*================================
+  =========== LANDING ============
+  ================================*/
+
+.wrapper--landing {
+  max-width: 500px;
+  padding: 64px 0;
+}
+
+.heading--landing {
+  margin: 0 0 32px;
+  font-size: 44px;
+}
+
+.paragraph--landing {
+  margin: 0;
+  font-size: 18px;
+}

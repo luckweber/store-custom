@@ -1,0 +1,72 @@
+{
+  "store.custom#landing": {
+      "blocks": [
+          "image#landing-01",
+          "flex-layout.row#landing-01",
+          "flex-layout.row#landing-02",
+          "rich-text#landing-01",
+          "image#landing-02",
+          "flex-layout.row#instafeed"
+      ]
+  },
+  "flex-layout.row#landing-01": {
+      "children": [
+        "info-card#landing-01"
+      ]
+  },
+  "info-card#landing-01": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "right",
+    "imageUrl": "https://via.placeholder.com/1025x606",
+    "headline": "About Us",
+    "subhead": "It is a long established fact that a reader will be distracted <br> by the readable content of a page when.",
+    "callToActionMode": "button",
+    "callToActionText": "Explore",
+    "callToActionUrl": "/sale/d",
+    "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#landing-02": {
+    "children": [
+      "info-card#landing-02"
+    ]
+  },
+  "info-card#landing-02": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://via.placeholder.com/1025x606",
+    "headline": "Our Values",
+    "subhead": "It is a long established fact that a reader will be distracted <br> by the readable content of a page when.",
+    "callToActionMode": "button",
+    "callToActionText": "Explore",
+    "callToActionUrl": "/sale/d",
+    "textAlignment": "center"
+    }
+  },
+  "rich-text#landing-01": {
+    "props": {
+      "text": "# **EletroOne!** \n Lorem ipsum dolor **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna *aliqua*. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. *Duis* aute irure dolor in reprehenderit in voluptate velit esse **cillum** dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "landing"
+    }
+  },
+  "image#landing-01": {
+    "props": { 
+      "blockClass": ["cover", "landing"],
+      "width": "100%",
+      "height": 500,
+      "src": "https://via.placeholder.com/1120x500"
+    }
+  },
+  "image#landing-02": {
+    "props": { 
+      "blockClass": "cover",
+      "width": "100%",
+      "height": 300,
+      "src": "https://via.placeholder.com/1120x300"
+    }
+  }
+}
