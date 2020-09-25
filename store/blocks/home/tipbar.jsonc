@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#tipbar": {
+    "children": [
+      "image#tipbar-01",
+      "image#tipbar-02",
+      "image#tipbar-03",
+      "image#tipbar-04"
+    ],
+    "props": {
+      "blockClass": "tipbar"
+    }
+  },
+  "image#tipbar-01": {
+    "props": { 
+      "src": "https://via.placeholder.com/256x112",
+      "blockClass": "tipbar"
+    }
+  },
+  "image#tipbar-02": {
+    "props": { 
+      "src": "https://via.placeholder.com/256x112",
+      "blockClass": "tipbar"
+    }
+  },
+  "image#tipbar-03": {
+    "props": { 
+      "src": "https://via.placeholder.com/256x112",
+      "blockClass": "tipbar"
+    }
+  },
+  "image#tipbar-04": {
+    "props": { 
+      "src": "https://via.placeholder.com/256x112",
+      "blockClass": "tipbar"
+    }
+  }
+}
