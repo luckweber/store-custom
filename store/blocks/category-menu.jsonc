@@ -1,0 +1,279 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "menuDisposition": "center",
+      "blockClass": "categories" 
+    },
+    "children": [
+      "menu-item#category-major-appliances",
+      "menu-item#category-small-appliances",
+      "menu-item#more"
+    ]
+  },
+
+  /*********************************************
+  *              MAJOR APPLIANCES              *
+  *********************************************/
+  "menu-item#category-major-appliances": {
+    "props": {
+      "id": "menu-item-category-major-appliances",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Major-Appliances/",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-major-appliances"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-major-appliances": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-major-appliances"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-major-appliances": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-major-appliances-ovens",
+      "menu-item#category-major-appliances-refrigerators",
+      "menu-item#category-major-appliances-washers"
+    ]
+  },
+  "menu-item#category-major-appliances-ovens": {
+    "props": {
+      "id": "menu-item-category-major-appliances-ovens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Major-Appliances/Eanges---Ovens/",
+        "noFollow": false,
+        "tagTitle": "Fogões e Fornos",
+        "text": "Fogões e Fornos"
+      }
+    }
+  },
+  "menu-item#category-major-appliances-washers": {
+    "props": {
+      "id": "menu-item-category-major-appliances-washers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Major-Appliances/Washers---Dryers/",
+        "noFollow": false,
+        "tagTitle": "Lavadoras e Secadoras",
+        "text": "Lavadoras e Secadoras"
+      }
+    }
+  },
+  "menu-item#category-major-appliances-refrigerators": {
+    "props": {
+      "id": "menu-item-category-major-appliances-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Major-Appliances/Refrigerators/",
+        "noFollow": false,
+        "tagTitle": "Refrigeradores",
+        "text": "Refrigeradores"
+      }
+    }
+  },
+
+  /*********************************************
+  *              SMALL APPLIANCES              *
+  *********************************************/
+  "menu-item#category-small-appliances": {
+    "props": {
+      "id": "menu-item-category-small-appliances",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Small-Appliances/",
+        "noFollow": false,
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-small-appliances"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-small-appliances": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-small-appliances"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-small-appliances": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-major-appliances-coffee",
+      "menu-item#category-major-appliances-mixers",
+      "menu-item#category-major-appliances-toasters"
+    ]
+  },
+  "menu-item#category-major-appliances-coffee": {
+    "props": {
+      "id": "menu-item-category-major-appliances-coffee",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Small-Appliances/Coffee-Makers/",
+        "noFollow": false,
+        "tagTitle": "Máquinas de Café",
+        "text": "Máquinas de Café"
+      }
+    }
+  },
+  "menu-item#category-major-appliances-mixers": {
+    "props": {
+      "id": "menu-item-category-major-appliances-mixers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Small-Appliances/Mixers---Blenders/",
+        "noFollow": false,
+        "tagTitle": "Mixers e Liquidificadores",
+        "text": "Mixers e Liquidificadores"
+      }
+    }
+  },
+  "menu-item#category-major-appliances-toasters": {
+    "props": {
+      "id": "menu-item-category-major-appliances-toasters",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Small-Appliances/Toasters---Grills/",
+        "noFollow": false,
+        "tagTitle": "Torradeiras & Grills",
+        "text": "Torradeiras & Grills"
+      }
+    }
+  },
+
+  /*********************************************
+  *                    MORE                    *
+  *********************************************/
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mais",
+        "text": "Mais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#cams",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#cams": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "info-card#submenu": {
+    "props": {
+      "imageUrl": "https://via.placeholder.com/1500",
+      "isFullModeStyle": false,
+      "headline": "Hora de deixar a cozinha com estilo",
+      "callToActionText": "Descubra",
+      "textPosition": "center",
+      "blockClass": "banner-submenu"
+    }
+  }
+}

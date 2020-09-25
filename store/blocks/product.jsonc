@@ -111,7 +111,7 @@
       "marginBottom": 5,
       "paddingBottom": 8,
       "fullWidth": true,
-      "blockClass": "pdpShelfBottom"
+      "blockClass": "mainShelf"
     },
     "children": ["shelf.relatedProducts"]
   },

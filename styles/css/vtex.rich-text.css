@@ -105,4 +105,51 @@
     border: none;
     box-shadow: -1px 15px 13px 0px rgba(50,221,126,.5);
     transition: 400ms ease-in-out all;
+/*================================
+  =========== LANDING ============
+  ================================*/
+
+.wrapper--landing {
+  max-width: 500px;
+  padding: 64px 0;
+}
+
+.heading--landing {
+  margin: 0 0 32px;
+  font-size: 44px;
+}
+
+.paragraph--landing {
+  margin: 0;
+  font-size: 18px;
+}
+
+/*=================================
+  ============ FOOTER =============
+  ================================*/
+.paragraph--copy {
+  color: #0c70d8; 
+}
+
+/*================================
+  ========== RESPONSIVE ==========
+  ================================*/
+
+@media screen and (max-width: 640px) {
+  .wrapper--title {
+    text-align: center;
+  }
+
+  .wrapper--landing {
+    padding: 32px 16px;
+  }
+
+  .wrapper--accessories {
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .wrapper--departments {
+    padding: 0 16px;
+  }
 }

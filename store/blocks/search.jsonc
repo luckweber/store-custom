@@ -15,7 +15,7 @@
   "search-result-layout.desktop": {
     "children": [ 
       "breadcrumb.search",
-      "search-title.v2",
+      "stack-layout#banner-search",
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
@@ -25,17 +25,53 @@
       "pagination": "showMore"
     }
   },
+  "search-result-layout.mobile": {
+    "children": [ 
+      "breadcrumb.search",
+      "stack-layout#banner-search",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props":{
+      "pagination": "showMore"
+    }
+  },
+  "stack-layout#banner-search": {
+    "children": [
+      "image#banner-search",
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "centered"
+    }
+  },
+  "image#banner-search": {
+    "props": { 
+      "blockClass": "cover",
+      "width": "100%",
+      "height": 260,
+      "src": "https://via.placeholder.com/1366x260"
+    }
+  },
   "flex-layout.row#top": {
     "children": [
       "total-products.v2",
       "order-by.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": ["searchWrapper", "filter"]
+    }
   },
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
       "flex-layout.col#search"
-    ]
+    ],
+    "props": {
+      "blockClass": "searchWrapper"
+    }
   },
   "flex-layout.col#filter": {
     "props": {
