@@ -37,6 +37,10 @@
   height: auto;
 }
 
+.imageElement--landing {
+  margin-bottom: 64px;
+}
+
 /* 
 ====================
 Produto 
@@ -104,8 +108,8 @@ Produto
   margin: 0 4px;
 }
 
-.autoCompleteOuterContainer :global(.vtex-input-prefix__group),
-.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input),
-.autoCompleteOuterContainer :global(.vtex-input__suffix) {
-  background-color: red;
+.infoCardContainer {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0;
 }
