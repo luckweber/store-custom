@@ -1,0 +1,33 @@
+/*==================================
+  ========== ACCESSORIES ===========
+  ================================*/
+{
+  "flex-layout.row#accessories": {
+    "children": [
+      "stack-layout#accessories"
+    ]
+  },
+  "stack-layout#accessories": {
+    "children": [
+      "image#accessories",
+      "rich-text#accessories"
+    ],
+    "props": {
+      "blockClass": "accessories"
+    }
+  },
+  "image#accessories": {
+    "props": { 
+      "blockClass": "accessories",
+      "src": "https://via.placeholder.com/682x481"
+    }
+  },
+  "rich-text#accessories": {
+    "props": { 
+      "text": "### Acessórios \n It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "accessories"
+    }
+  }
+}

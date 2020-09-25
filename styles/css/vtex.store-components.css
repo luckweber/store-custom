@@ -1,9 +1,18 @@
+:global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
 
 .imageElement--banner {
   display: block;
   width: 100%;
-  height: calc(100vh - 64px);
-  object-fit: cover;
+  height: auto;
+  /* height: calc(100vh - 64px); */
+  /* object-fit: cover; */
+}
+
+.imageElement--tipbar {
+  width: 100%;
+  height: auto;
 }
 
 .imageElement--cover {
@@ -11,8 +20,19 @@
   display: block;
 }
 
+.imageElement--darker {
+  filter: brightness(35%); 
+}
+
 .imageElement--accessories {
   object-fit: cover;
   display: block;
-  height: auto !important;
+  width: 100%;
+  height: auto;
+  min-height: 447px;
+}
+
+.imageElement--instafeed {
+  width: 100%;
+  height: auto;
 }

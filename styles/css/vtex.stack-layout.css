@@ -5,3 +5,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.stackContainer--accessories {
+  margin-top: 80px;
+}
+
+.stackItem--accessories {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

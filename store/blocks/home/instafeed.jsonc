@@ -1,0 +1,42 @@
+/*================================
+  ========== INSTAFEED ===========
+  ================================*/
+{ 
+  "flex-layout.row#instafeed": {
+    "children": [
+      "image#instafeed-01",
+      "image#instafeed-02",
+      "image#instafeed-03",
+      "rich-text#instafeed"
+    ],
+    "props": {
+      "blockClass": "instafeed"
+    }
+  },
+  "image#instafeed-01": {
+    "props": { 
+      "src": "https://via.placeholder.com/254x254",
+      "blockClass": "instafeed"
+    }
+  },
+  "image#instafeed-02": {
+    "props": { 
+      "src": "https://via.placeholder.com/254x254",
+      "blockClass": "instafeed"
+    }
+  },
+  "image#instafeed-03": {
+    "props": { 
+      "src": "https://via.placeholder.com/254x254",
+      "blockClass": "instafeed"
+    }
+  },
+  "rich-text#instafeed": {
+    "props": { 
+      "text": "Instagram \n ### @EletroOne",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "instafeed"
+    }
+  }
+}
