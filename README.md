@@ -1,0 +1,2 @@
+# LOJA ELETROONE - VTEX HACKASTORE
+A loja [EletroOne](https://grupo1--appliancetheme.myvtex.com/) feita para a hackastore da VTEX com o tema de linha branca juntamente com o [bloco customizado para inserir contato vendedores](https://github.com/luckweber/block-custom)
