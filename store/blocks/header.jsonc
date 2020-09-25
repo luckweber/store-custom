@@ -62,12 +62,15 @@
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
-      "logo",
+      "flex-layout.col#drawer",
+      "flex-layout.col#logo-mobile",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -79,7 +82,26 @@
       "fullWidth": true
     }
   },
+  "flex-layout.col#drawer": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["drawer"]
+  },
   "drawer": {
-    "children": []
+    "children": [
+      "menu-item#category-major-appliances",
+      "menu-item#category-small-appliances",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
   }
 }
