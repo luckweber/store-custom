@@ -116,8 +116,13 @@
   margin-top: 64px;
 }
 
-.flexRowContent--footer {
+.flexRowContent--footer,
+.flexRowContent--footer-mobile {
   background-color: #0c70d8;
+}
+
+.flexRowContent--footer-mobile {
+  padding: 20px 0;
 }
 
 .flexRowContent--copyright {

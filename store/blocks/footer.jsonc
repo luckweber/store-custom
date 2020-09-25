@@ -28,11 +28,11 @@
   "flex-layout.row#footer-mobile": {
     "props": {
       "fullWidth": true,
-      "blockClass": "footer"
+      "blockClass": "footer-mobile"
     },
     "children": [
       "social-networks",
-      "accepted-payment-methods",
+      "accepted-payment-methods#mobile",
       "powered-by"
     ]
   },
@@ -49,6 +49,12 @@
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  },
+  "accepted-payment-methods#mobile": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "blockClass": "payment-mobile"
     }
   },
   "flex-layout.row#copyright": {
