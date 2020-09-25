@@ -23,7 +23,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major--appliances/",
+        "href": "/Major-Appliances/",
         "noFollow": false,
         "tagTitle": "Eletrodomésticos",
         "text": "Eletrodomésticos"
@@ -59,7 +59,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major-appliances/ranges---ovens/",
+        "href": "/Major-Appliances/Eanges---Ovens/",
         "noFollow": false,
         "tagTitle": "Fogões e Fornos",
         "text": "Fogões e Fornos"
@@ -74,7 +74,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major-appliances/washers---dryers/",
+        "href": "/Major-Appliances/Washers---Dryers/",
         "noFollow": false,
         "tagTitle": "Lavadoras e Secadoras",
         "text": "Lavadoras e Secadoras"
@@ -89,7 +89,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/major-appliances/refrigerators/",
+        "href": "/Major-Appliances/Refrigerators/",
         "noFollow": false,
         "tagTitle": "Refrigeradores",
         "text": "Refrigeradores"
@@ -144,7 +144,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances/coffee-makers/",
+        "href": "/Small-Appliances/Coffee-Makers/",
         "noFollow": false,
         "tagTitle": "Máquinas de Café",
         "text": "Máquinas de Café"
@@ -159,7 +159,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances/mixers---blenders/",
+        "href": "/Small-Appliances/Mixers---Blenders/",
         "noFollow": false,
         "tagTitle": "Mixers e Liquidificadores",
         "text": "Mixers e Liquidificadores"
@@ -174,7 +174,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances/toasters---grills/",
+        "href": "/Small-Appliances/Toasters---Grills/",
         "noFollow": false,
         "tagTitle": "Torradeiras & Grills",
         "text": "Torradeiras & Grills"
@@ -270,8 +270,8 @@
     "props": {
       "imageUrl": "https://via.placeholder.com/1500",
       "isFullModeStyle": false,
-      "headline": "Time to rethink your kitchen",
-      "callToActionText": "Discover",
+      "headline": "Hora de deixar a cozinha com estilo",
+      "callToActionText": "Descubra",
       "textPosition": "center",
       "blockClass": "banner-submenu"
     }
