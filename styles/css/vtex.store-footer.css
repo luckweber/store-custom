@@ -16,3 +16,7 @@
 .paymentMethodIconImage {
   filter: brightness(100);
 }
+
+.socialNetworkImage:hover {
+  filter: brightness(2);
+}
