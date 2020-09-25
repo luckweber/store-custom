@@ -1,0 +1,22 @@
+.poweredBy,
+.socialNetworkWrapper,
+.acceptedPaymentMethodContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+}
+
+.poweredByImage {
+  width: 65px;
+  filter: brightness(100);
+}
+
+.socialNetworkImage,
+.paymentMethodIconImage {
+  filter: brightness(100);
+}
+
+.socialNetworkImage:hover {
+  filter: brightness(2);
+}
