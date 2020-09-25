@@ -15,3 +15,20 @@
   display: flex;
   align-items: center;
 }
+
+/*================================
+  ========== RESPONSIVE ==========
+  ================================*/
+
+@media screen and (max-width: 640px) {
+  .stackItem--centered {
+    text-align: center;
+  }
+
+  .stackContainer--accessories {
+    margin: 32px 0 0;
+    transform: translateX(-16px);
+    width: calc(100% + 33px) !important;
+    display: table;
+  }
+}
