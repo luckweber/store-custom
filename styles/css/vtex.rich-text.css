@@ -92,10 +92,11 @@
 }
 
 .paragraph--sellersTrigger {
-    width: 250px;
+    width: 300px;
     height: 40px;
     color: white;
     text-align: center;
+    text-transform: uppercase;
     line-height: 6px;
     border-radius: 6px;
     cursor: pointer;
@@ -103,9 +104,12 @@
     padding: 16px 0;
     font-size: 20px;
     border: none;
-    box-shadow: -1px 15px 13px 0px rgba(50,221,126,.5);
-    transition: 400ms ease-in-out all;
+    transition: 200ms ease-in-out all;
     position: relative;
+}
+
+.paragraph--sellersTrigger:hover {
+  opacity: 0.8;
 }
 
 .paragraph--sellersTrigger::before {
