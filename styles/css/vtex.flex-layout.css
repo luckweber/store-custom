@@ -107,3 +107,14 @@
   width: 100%;
   margin-top: 32px;
 }
+
+/*================================
+  ============ FOOTER ============
+  ================================*/
+.flexRowContent--footer {
+  background-color: #0c70d8;
+}
+
+.flexRowContent--copyright {
+  background-color: #fafafa;
+}
