@@ -2,7 +2,10 @@
   "store.home": { 
     "blocks": [
       "rich-text",
-      "flex-layout.row#banner"
+      "flex-layout.row#banner",
+      "flex-layout.row#shelf-01",
+      "stack-layout#accessories",
+      "flex-layout.row#departments"
     ]
   },
   "rich-text": { 
@@ -25,6 +28,107 @@
       "headline": "Time to rethink your kitchen",
       "callToActionText": "Discover",
       "textPosition": "center"
+    }
+  },
+/*================================
+  =========== SHELVES ============
+  ================================*/
+  "flex-layout.row#shelf-01": {
+    "props" : {
+      "blockClass": "mainShelf"
+    },
+    "children": [
+      "list-context.product-list"
+    ]
+  },
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ]
+  },
+/*==================================
+  ========== ACCESSORIES ===========
+  ================================*/
+  "stack-layout#accessories": {
+    "children": [
+      "image#accessories",
+      "rich-text#accessories"
+    ],
+    "props": {
+      "blockClass": "accessories"
+    }
+  },
+  "image#accessories": {
+    "props": { 
+      "blockClass": "accessories",
+      "src": "https://via.placeholder.com/682x481"
+    }
+  },
+  "rich-text#accessories": {
+    "props": { 
+      "text": "### Acessórios \n Store Framework Lorem ipsum dolor sit amet.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  /*================================
+  ========== DEPARTMENTS ===========
+  ================================*/
+  "flex-layout.row#departments": {
+    "children": [
+      "stack-layout#department-01",
+      "stack-layout#department-02"
+    ]
+  },
+  "stack-layout#department-01": {
+    "children": [
+      "image#department-01",
+      "rich-text#department-01"
+    ],
+    "props": {
+      "blockClass": "centered"
+    }
+  },
+  "image#department-01": {
+    "props": { 
+      "blockClass": "cover",
+      "width": "100%",
+      "height": 400,
+      "src": "https://via.placeholder.com/682x481"
+    }
+  },
+  "rich-text#department-01": {
+    "props": { 
+      "text": "### Departamento \n Store Framework [COMPRAR](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }, 
+  "stack-layout#department-02": {
+    "children": [
+      "image#department-02",
+      "rich-text#department-02"
+    ],
+    "props": {
+      "blockClass": "centered"
+    }
+  },
+  "image#department-02": {
+    "props": { 
+      "blockClass": "cover",
+      "width": "100%",
+      "height": 400,
+      "src": "https://via.placeholder.com/682x481"
+    }
+  },
+  "rich-text#department-02": {
+    "props": { 
+      "text": "### Departamento \n Store Framework [COMPRAR](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

@@ -1,0 +1,10 @@
+.imageElement--cover {
+  object-fit: cover;
+  display: block;
+}
+
+.imageElement--accessories {
+  object-fit: cover;
+  display: block;
+  height: auto !important;
+}
