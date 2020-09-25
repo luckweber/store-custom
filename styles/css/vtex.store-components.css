@@ -1,0 +1,6 @@
+.imageElement--banner {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 64px);
+  object-fit: cover;
+}
