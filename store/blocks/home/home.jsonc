@@ -1,0 +1,20 @@
+{
+  "store.home": { 
+    "blocks": [
+      "slider-layout#home",
+      "slider-layout#benefits"
+    ]
+  },
+
+  // === SLIDER ===
+  "slider-layout#home": {
+    "children": ["image#banner"]
+  },
+  
+  "image#banner": {
+    "props": {
+      "src": "https://via.placeholder.com/1500x1000",
+      "blockClass": "banner"
+    }
+  }
+}
