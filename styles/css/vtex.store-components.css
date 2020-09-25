@@ -1,6 +1,54 @@
+:global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
 .imageElement--banner {
   display: block;
   width: 100%;
-  height: calc(100vh - 64px);
+  height: auto;
+  /* height: calc(100vh - 64px); */
+  /* object-fit: cover; */
+}
+
+.imageElement--tipbar {
+  width: 100%;
+  height: auto;
+}
+
+.imageElement--cover {
   object-fit: cover;
+  display: block;
+}
+
+.imageElement--darker {
+  filter: brightness(35%); 
+}
+
+.imageElement--accessories {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 447px;
+}
+
+.imageElement--instafeed {
+  width: 100%;
+  height: auto;
+}
+
+/* 
+====================
+Produto 
+====================
+*/
+.productDescriptionTitle {
+  font-size: 2rem;
+  color: #11181f;
+  font-weight: bold;
+}
+
+.shippingContainer {
+  padding: 1em;
+  background-color: #f0f1f3;
 }

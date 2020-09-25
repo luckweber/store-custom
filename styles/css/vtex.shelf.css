@@ -1,0 +1,19 @@
+.title {
+    font-size: 2rem;
+    color: #11181f;
+    font-weight: bold;
+}
+
+.slide {
+    background-color: #fff;
+    padding: 0 10px;
+    margin: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.slide :global(.vtex-button) {
+    top: 10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

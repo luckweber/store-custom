@@ -1,0 +1,55 @@
+.imageNormal {
+  margin-bottom: 16px;
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer) {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.nameContainer {
+  padding: 0;
+  justify-content: left;
+  align-items: baseline;
+  text-align: left;
+  margin-bottom: 16px;
+  min-height: 46px;
+}
+
+.productBrand {
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.priceContainer {
+  padding: 0;
+  align-items: baseline;
+}
+
+.priceContainer :global(.vtex-store-components-3-x-priceContainer) {
+  flex-direction: row;
+  align-items: center;
+}
+
+.price_sellingPriceLabel, .price_listPriceLabel {
+  display: none;
+}
+
+.price_listPrice {
+  margin-right: 8px;
+}
+
+.sellingPrice, .price_sellingPrice {
+  padding: 0;
+  align-items: baseline;
+  color: #0C70DB;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buyButton :global(.vtex-button) {
+  padding: 16px 0;
+  width: 100%;
+}
