@@ -1,0 +1,8 @@
+.nameContainer {
+  padding: 0;
+  justify-content: left;
+}
+.priceContainer, .sellingPrice {
+  padding: 0;
+  justify-content: left;
+}

@@ -1,6 +1,18 @@
+
 .imageElement--banner {
   display: block;
   width: 100%;
   height: calc(100vh - 64px);
   object-fit: cover;
+}
+
+.imageElement--cover {
+  object-fit: cover;
+  display: block;
+}
+
+.imageElement--accessories {
+  object-fit: cover;
+  display: block;
+  height: auto !important;
 }
