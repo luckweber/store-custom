@@ -112,6 +112,10 @@
   ============ FOOTER ============
   ================================*/
 
+.flexRow--footer {
+  margin-top: 64px;
+}
+
 .flexRowContent--footer {
   background-color: #0c70d8;
 }
