@@ -50,8 +50,26 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
+      "modal-trigger#first",
       "share#default"
     ]
+  },
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ]
+  },
+  "modal-layout#first": {
+    "children": [
+      "SearchSeller"
+    ]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "Falar com Vendedor",
+      "blockClass":"sellersTrigger"
+    }
   },
   "product-price#product-details": {
     "props": {

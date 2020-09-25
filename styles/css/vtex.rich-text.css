@@ -90,3 +90,19 @@
   font-size: 18px;
   text-transform: uppercase;
 }
+
+.paragraph--sellersTrigger {
+    width: 200px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #32dd7e;
+    padding: 16px 0;
+    font-size: 20px;
+    border: none;
+    box-shadow: -1px 15px 13px 0px rgba(50,221,126,.5);
+    transition: 400ms ease-in-out all;
+}
