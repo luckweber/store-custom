@@ -1,13 +1,19 @@
 .container {
-    background-color: #e2e7f1;
-    padding: 1rem;
+    background-color: #0C70DB;
+    padding: 16px;
 }
-.link {
-    color: #11181f;
-    font-size: .9rem;
 
+.link {
+    color: #fff;
+    font-size: 16px;
 }
+
+.caretIcon {
+    color: #fff;
+}
+
 .term {
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 16px;
+    color: #fff;
 }
