@@ -1,0 +1,15 @@
+/* 
+====================
+Produto 
+====================
+*/
+.productDescriptionTitle {
+    font-size: 2rem;
+    color: #11181f;
+    font-weight: bold;
+}
+
+.shippingContainer {
+    padding: 1em;
+    background-color: #f0f1f3;
+}

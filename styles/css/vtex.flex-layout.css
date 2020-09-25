@@ -1,0 +1,26 @@
+/* 
+====================
+Produto 
+====================
+*/
+.flexRow--buyButton :global(.vtex-button) {
+    background-color: #32dd7e;
+    padding: .6rem 0;
+    font-size: 1.2rem;
+    border: none;
+    padding: .5rem 0;
+    -webkit-box-shadow: -1px 15px 13px 0px rgba(50, 221, 126, .5);
+    box-shadow: -1px 15px 13px 0px rgba(50, 221, 126, .5);
+    -webkit-transition: 400ms ease-in-out all;
+    transition: 400ms ease-in-out all;
+}
+
+.flexRow--buyButton :global(.vtex-button):hover {
+    background-color: #4ce490;
+    -webkit-box-shadow: -1px 0 13px 0px rgba(50, 221, 126, .5);
+    box-shadow: -1px 0 13px 0px rgba(50, 221, 126, .5);
+}
+
+.flexRow--pdpShelfBottom {
+    background-color: #e2e7f1;
+}
