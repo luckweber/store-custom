@@ -90,6 +90,14 @@
   },
   "drawer": {
     "children": [
+      "menu#drawer"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#drawer": {
+    "children": [
       "menu-item#category-major-appliances",
       "menu-item#category-small-appliances",
       "menu-item#more"
