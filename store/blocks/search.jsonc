@@ -25,6 +25,19 @@
       "pagination": "showMore"
     }
   },
+  "search-result-layout.mobile": {
+    "children": [ 
+      "breadcrumb.search",
+      "stack-layout#banner-search",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props":{
+      "pagination": "showMore"
+    }
+  },
   "stack-layout#banner-search": {
     "children": [
       "image#banner-search",
@@ -48,7 +61,7 @@
       "order-by.v2"
     ],
     "props": {
-      "blockClass": "searchWrapper"
+      "blockClass": ["searchWrapper", "filter"]
     }
   },
   "flex-layout.row#results": {
