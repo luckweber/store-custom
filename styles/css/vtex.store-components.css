@@ -113,3 +113,21 @@ Produto
   margin: auto;
   padding: 0;
 }
+
+/*================================
+  ========== RESPONSIVE ==========
+  ================================*/
+
+@media screen and (max-width: 640px) {
+  .imageElement--landing {
+    margin-bottom: 0;
+  }
+  .shippingContainer {
+    padding-bottom: 16px;
+  }
+  .shippingContainer :global(.vtex-button) {
+    position: static;
+    max-width: none;
+    margin-top: 16px;
+  }
+}
